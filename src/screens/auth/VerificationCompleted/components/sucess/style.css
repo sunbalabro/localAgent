@@ -1,0 +1,27 @@
+.success-container {
+    background-color: white;
+    padding: 40px;
+    width: 30%;
+    border: 2px solid rgb(6, 99, 6);
+    border-radius: 10px;
+    background-color: #244C5A;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+  .verificationCont{
+    height: 100%;
+    padding: 50px;
+  }
+  .check-mark {
+    width: 100px; /* Adjust the size as needed */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    color: #fff !important; /* Ant Design primary color */
+  }
+  
+  .subtitle {
+    color: #fff !important; /* Dark gray color for the subtitle */
+  }

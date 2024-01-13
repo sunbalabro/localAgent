@@ -1,0 +1,97 @@
+.localAgentCont{
+    background-color: #244C5A;
+    height: 100%;
+    padding: 50px;
+}
+.localAgentSignup{
+    background-color: white;
+    padding: 40px;
+    width: 30%;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.localSignUpForm{
+    margin-top: 80px;
+    width: 80%;
+}
+.formSelect{
+    height: 50px;
+}
+.localsignUpinp{
+    height: 45px;
+}
+.formLabel{
+    font-size: 17px;
+    font-weight: bolder;
+}
+.localSignupformItem{
+    margin-right: 20px;
+}
+.formInp{
+    width: 90%;
+    height: 50px;
+    font-size: 15px;
+}
+.localSignupbtn{
+    width: 200px;
+   height: 50px;
+   padding: 10px;
+   background-color: #60D2BF;
+   border-radius: 25px;
+   color: black;
+   font-weight: bold;
+   font-size: 15px;
+}
+.localSignupbtn:hover{
+    background-color: #60D2BF ;
+    border: 1px solid #60D2BF !important;
+    color: black !important;
+}
+
+.editable-input {
+    border: 1px solid #d9d9d9;
+    padding: 8px;
+    min-height: 32px;
+    overflow-y: auto;
+    outline: none;
+  }
+  
+  .editable-input span {
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+  .resourceBtn{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #60D2BF;
+    color: black;
+    font-weight: bold;
+  }
+  .formSublabel{
+    color: #8c8c8c;
+    font-size: medium;
+  }
+  .resourceBtn:hover{
+    border: 1px solid #60D2BF;
+    color: black;
+  }
+@media (max-width: 768px) {
+    .localAgentSignup {
+        width: 90%;
+    }
+
+    .localSignUpForm {
+        width: 100%;
+    }
+
+    .formLabel {
+        font-size: 16px; /* Adjusted font size for smaller screens */
+    }
+
+    .localSignupbtn {
+        font-size: 14px; /* Adjusted font size for smaller screens */
+    }
+}
